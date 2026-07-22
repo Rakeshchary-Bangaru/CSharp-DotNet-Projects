@@ -7,7 +7,7 @@ class BankingApplication
         System.Console.WriteLine("Welcome to the Micro Bank");
         System.Console.WriteLine("***** Login Page *****");
 
-        
+
 
         System.Console.Write("Username: ");
         string username = System.Console.ReadLine() ?? "";
@@ -16,7 +16,7 @@ class BankingApplication
         if (!string.IsNullOrWhiteSpace(username))
         {
             System.Console.Write("Password: ");
-             password = System.Console.ReadLine() ?? "";
+            password = System.Console.ReadLine() ?? "";
         }
 
         if (username == "admin" && password == "123")
@@ -44,22 +44,27 @@ class BankingApplication
 
                 switch (mainmenuchoice)
                 {
-                    case 1 : System.Console.WriteLine("Customers");// Customers
+                    case 1:
+                        CustomersMenu();// Customers
                         break;
-                    case 2 : System.Console.WriteLine("Accounts");// Accounts
+                    case 2:
+                        AccountsMenu();// Accounts
                         break;
-                    case 3 : System.Console.WriteLine("Transaction");// Transactions
+                    case 3:
+                        System.Console.WriteLine("Transaction");// Transactions
                         break;
-                    case 4 : System.Console.WriteLine("Transfer Statements");// Transfer Statements
+                    case 4:
+                        System.Console.WriteLine("Transfer Statements");// Transfer Statements
                         break;
-                    case 5 : System.Console.WriteLine("Account Statement");// Account Statement
-                        break;   
-                
+                    case 5:
+                        System.Console.WriteLine("Account Statement");// Account Statement
+                        break;
+
 
                 }
             } while (mainmenuchoice != 0);
 
-            
+
         }
         else
         {
@@ -67,5 +72,55 @@ class BankingApplication
         }
 
         System.Console.WriteLine("Thank you visit again...");
+    }
+
+    static void CustomersMenu()
+    {
+        // variable to store customers menu choice
+        int customersmenuchoice = -1;
+
+        // do while loop starts
+        do
+        {
+            // print customers menu
+            System.Console.WriteLine("\n ::: Customers Menu :::");
+            System.Console.WriteLine("1. Add Customer");
+            System.Console.WriteLine("2. Delete Customer");
+            System.Console.WriteLine("3. Update Customer");
+            System.Console.WriteLine("4. View Customer");
+            System.Console.WriteLine("0. Back to Main Menu");
+
+            // accept customers menu choice 
+            System.Console.Write("Enter your choice: ");
+            customersmenuchoice = int.Parse(System.Console.ReadLine() ?? "");
+
+        } while (customersmenuchoice != 0);
+
+
+    }
+    
+    static void AccountsMenu()
+    {
+        // variable to store accounts menu choice
+        int accountsmenuchoice = -1;
+
+        // do while loop starts
+        do
+        {
+            // print accounts menu
+            System.Console.WriteLine("\n ::: Accounts Menu :::");
+            System.Console.WriteLine("1. Add Account");
+            System.Console.WriteLine("2. Delete Account");
+            System.Console.WriteLine("3. Update Account");
+            System.Console.WriteLine("4. View Accounts");
+            System.Console.WriteLine("0. Back to Main Menu");
+
+            // accept accounts menu choice 
+            System.Console.Write("Enter your choice: ");
+            accountsmenuchoice = int.Parse(System.Console.ReadLine() ?? "");
+
+        } while (accountsmenuchoice != 0);
+
+
     }
 }
