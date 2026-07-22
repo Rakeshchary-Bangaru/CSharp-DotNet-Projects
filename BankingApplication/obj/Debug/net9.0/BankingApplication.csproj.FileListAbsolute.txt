@@ -1,0 +1,14 @@
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/bin/Debug/net9.0/BankingApplication
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/bin/Debug/net9.0/BankingApplication.deps.json
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/bin/Debug/net9.0/BankingApplication.runtimeconfig.json
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/bin/Debug/net9.0/BankingApplication.dll
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/bin/Debug/net9.0/BankingApplication.pdb
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/obj/Debug/net9.0/BankingApplication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/obj/Debug/net9.0/BankingApplication.AssemblyInfoInputs.cache
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/obj/Debug/net9.0/BankingApplication.AssemblyInfo.cs
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/obj/Debug/net9.0/BankingApplication.csproj.CoreCompileInputs.cache
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/obj/Debug/net9.0/BankingApplication.dll
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/obj/Debug/net9.0/refint/BankingApplication.dll
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/obj/Debug/net9.0/BankingApplication.pdb
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/obj/Debug/net9.0/BankingApplication.genruntimeconfig.cache
+/Users/rakeshbangaru/Documents/c# and .net/CSharp-DotNet-Projects/BankingApplication/obj/Debug/net9.0/ref/BankingApplication.dll
